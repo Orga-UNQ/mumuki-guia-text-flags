@@ -30,3 +30,7 @@ Para evaluar la igualdad: Con las herramientas que tenemos (set de instrucciones
 SUB R0, 0x000
 saltarSiResultadoEsCero E
 ```
+
+¿Cómo se implementa esta nueva instrucción? Se necesita caracterizar el resultado  de la ALU. Supongamos que ahora la ALU tiene, además de el resultado, una señal que se enciende cuando el resultado es cero.
+
+![](https://github.com/Orga-UNQ/mumuki-guia-text-flags/blob/master/images/ALU-con-flag.png?raw=true)
