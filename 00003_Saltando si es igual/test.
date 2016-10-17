@@ -1,0 +1,16 @@
+
+examples:
+- name: 'El valor cumple la condicion'
+  preconditions:
+    memory:
+      'E456': '0008'
+  postconditions:
+    equal:
+      R5: '0001'
+- name: 'El valor NO cumple la condicion'
+  preconditions:
+    memory:
+      'E456': '0006'
+  postconditions:
+    equal:
+      R5: '0000'
