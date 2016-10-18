@@ -24,3 +24,7 @@ Para corregir esta situación, incluiremos en nuestro repertorio una nueva instr
 sonIguales: MOV R2, 0x0001
 fin: ...
 ```
+
+### A programar se ha dicho
+
+Escribí un programa que, si el valor en R0 es igual al valor en R1, ponga en R2 un 1 ó 0 en caso contrario.

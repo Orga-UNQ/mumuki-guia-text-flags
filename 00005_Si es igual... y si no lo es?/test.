@@ -1,0 +1,17 @@
+examples:
+- name: 'Son iguales'
+  preconditions:
+    records:
+      'R0': '1111'
+      'R1': '1111'
+  postconditions:
+    equal:
+      R2: '0001'
+- name: 'no son iguales'
+  preconditions:
+    records:
+      'R0': '1110'
+      'R1': '1111'
+  postconditions:
+    equal:
+      R2: '0000'
